@@ -1,1 +1,1 @@
-var app = angular.module('randomModule', []);
+angular.module('randomModule', []);
