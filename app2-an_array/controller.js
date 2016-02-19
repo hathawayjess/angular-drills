@@ -1,4 +1,4 @@
-app.controller('arrayCtrl', function($scope, myService) {
+angular.module('arrayApp').controller('arrayCtrl', function($scope, myService) {
 
 	$scope.myData = myService.myData;
 

@@ -1,4 +1,4 @@
-app.service('myService', function() {
+angular.module('arrayApp').service('myService', function() {
 
 this.myData = [
 	{"name": "Aileen Jacobs", "email": "convallis.ante.lectus@euneque.co.uk", "dateEmployed": "01/01/2016", "phone": "1-862-996-4921"},
@@ -107,10 +107,3 @@ this.myData = [
 
 
 });
-
-
-
-
-
-
-
