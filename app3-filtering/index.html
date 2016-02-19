@@ -1,7 +1,12 @@
 <html ng-app="myModule">
 	<body ng-controller="myCtrl">
-		<input style="text" ng-model="filterData">
-		<ul ng-repeat="data in myData  | filter: filterData">
+		<div>
+			Filter name: <input style="text" ng-model="search.name" />
+		</div>
+		<div>
+			Filter email: <input type="text" ng-model="search.email" />
+		</div>
+		<ul ng-repeat="data in myData  | filter: search">
 			<li>{{ data.name }}</li>
 			<li>{{ data.email }}</li>
 			<li>{{ data.dateEmployed }}</li>

@@ -1,4 +1,4 @@
-app.service('myService', function() {
+angular.module('myModule').service('myService', function() {
 
 
 this.myData = [
